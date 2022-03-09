@@ -1,0 +1,466 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Epilogue', sans-serif; 
+}
+body{
+    background: #222222;
+}
+/*Navbar*/
+.Navbar{
+    background: #222222;
+display: flex;
+color: #FFFFFF;
+padding: 1rem 2rem;
+}
+.logo{display: flex;
+}
+.logo img{
+    width: 3rem;
+}
+.logo p{
+    padding: 1rem 1rem;
+}
+.routes{
+    display: flex;
+    margin-left: auto;
+}
+.routes li{
+ list-style: none;
+ padding: 1rem 1.5rem;
+}
+.navBtns{
+    margin-left: auto;
+margin-right: 3.5rem;
+}
+.navBtns button{
+  border-radius: 12px;
+  margin-right: 2rem;
+}
+.buyMRI{
+     background: #5474F9;
+     border: 2px solid #5474F9;
+     color: #FFFFFF;
+     padding: 0.7rem 1.3rem;
+margin-right: 2.4rem;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+outline: none;
+}
+.buyMRI img{
+    width: 1rem;
+    background: #5474F9;
+}
+
+.enterApp{
+    background: rgba(84, 116, 249, 0.4);
+    border: 1px solid #5474F9;
+color: #FFFFFF;
+padding: 0.9rem;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+}
+/*Header*/
+.Header{
+    text-align: center;
+    margin-top: 10rem;
+}
+.Header h1{
+color: #FFFFFF;
+font-weight: 900;
+font-size: 96px;
+position: relative;
+top: -14.5rem;
+}
+.Header span{
+    color:  #5474F9;
+    font-weight: 900;
+
+}
+.buy{
+    background: #5474F9;
+    border: 2px solid #5474F9;
+    color: #FFFFFF;
+    padding: 0.7rem 1.3rem;
+font-weight: 700;
+font-family: 'Inter', sans-serif;
+border-radius: 12px;
+}
+.buy img{
+    width: 1rem;
+    background: #5474F9;
+}
+.readMore{
+    font-weight: 700;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.9rem 1.3rem;
+    border: 1px solid #5474F9;
+   background: #222222;
+   color: #FFFFFF;
+   margin-left: 3rem;
+
+}
+.Header-content p{
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+    padding: 4rem 35rem;
+    font-size: 16px;
+}
+
+/*MARKET CAP*/
+.MarketCap{
+    display: flex;
+    background: linear-gradient(185.71deg, #8372D1 8.18%, #7372D1 54.09%);
+  height: 13.5rem;
+  margin-top: 6rem;
+}
+.Market-logo{
+    margin-top: -6rem;
+}
+.market-content{
+    margin-top: 3rem;
+    margin-left: 13rem;
+    color: #FFFFFF; 
+    font-size: 25px;
+
+}
+.market-content p{
+    margin-top: 3rem;
+    font-size: 40px;
+    font-weight: 700;
+}
+/*Investment*/
+.invest-content{
+    padding: 10rem 6rem;
+}
+.invest-content h1{
+width: 524.17px;
+font-family: Epilogue,sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 48px;
+line-height: 49px;
+color: #FFFFFF;
+}
+.invest-content p{
+width: 485.9px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+#investLogo{
+    position: relative;
+width: 510.76px;
+height: 510.76px;
+/* opacity: 0.4; */
+left: 55rem;
+bottom: 45rem;
+}
+.invest_container{
+position: relative;
+width: 400px;
+height: 464px;
+left: 58.5rem;
+bottom: 75.5rem;
+background: #1A1A1A;
+border-radius: 12px;
+}
+.container_head{
+    display: flex;
+}
+.container_head h5{
+font-family: Epilogue;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 20px;
+padding: 2rem 5rem;
+color: #FFFFFF;
+}
+.container_content, .container_content1{
+    position: absolute;
+    width: 335px;
+    top: 107px;
+    left: 30px;
+    height: 103.81px;
+    background: #323232;
+    border-radius: 12px;
+}
+.container_content p, .container_content1 p{
+font-family: Epilogue, sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 17px;
+line-height: 16px;
+color: #FFFFFF;
+padding-top: 1.5rem;
+padding-left: 1.5rem;
+}
+#investzero{
+    font-family: Epilogue, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 16px;
+color: #FFFFFF;
+padding-top: 1rem;
+}
+.avaxbtn{
+    position: absolute;
+    width: 111px;
+    height: 41px;
+    left: 193px;
+    top: 33.59px;
+    background: #5474F9;
+    border-radius: 12px;
+    border: 0;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+    margin: 0px 8px;
+}
+
+
+
+/*Crypto*/
+.Crypto{
+    text-align: center;
+}
+#logo{
+    width: 35rem;
+}
+.Crypto-currency{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -27rem;
+}
+.Crypto-currency div{
+    padding: 2rem 3rem;
+}
+.Crypto-currency div img{
+    height: 100px;
+}
+.Crypto h1{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 48px;
+    margin-top: -12rem;
+}
+/* DECENTRALISED */
+.Decentralised{
+    padding-bottom: 5rem;
+}
+.Decentralised h1{
+font-family: Epilogue, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+}
+.Decentralised p{
+width: 470px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+padding-top: 2.5rem;
+}
+.Decentralised_wrapped{
+    padding: 0 6rem;
+    padding-bottom: 6rem;
+}
+.Decentralised_wrapped img{
+width: 210px;
+height: 210px;
+position: relative;
+left:60rem;
+top:12rem;
+}
+.readMoreIndex{
+    font-weight: 700;
+    border-radius: 12px;
+    font-family: 'Inter', sans-serif;
+    padding: 0.9rem 1.3rem;
+    border: 1px solid #5474F9;
+   background: #222222;
+   color: #FFFFFF;
+   margin-top: 2rem;
+
+}
+
+
+/* TEAM */
+.Team h1{
+    text-align: center;
+font-family: Epilogue, sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 40px;
+line-height: 49px;
+color: #FFFFFF;
+}
+.content p{
+width: 450px;
+font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 16px;
+line-height: 24px;
+color: #FFFFFF;
+}
+
+.content{
+    padding: 1rem 0;
+}
+.team_content{
+    padding: 5rem 6rem;
+}
+
+
+/* FOOTER */
+footer{
+background: #1A1A1A;
+border-radius: 80px 80px 0px 0px;
+}
+footer h1{
+text-align: center;
+padding-top: 3.5rem;
+font-family: 'Epilogue', sans-serif;
+font-style: normal;
+
+font-size: 45px;
+line-height: 49px;
+color: #FFFFFF;
+font-weight: 700;
+}
+.socialHandles{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 6rem;
+}
+.handle{
+    padding: 0 3rem;
+}
+.handle h5{
+width: 85px;
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 29px;
+color: #FFFFFF;
+margin: 36px 0px;
+}
+.footerLogo{
+    display: flex;
+    padding: 0 5rem;
+    margin-top: 5rem;
+}
+.footerLogo h5{
+
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 25px;
+color: #FFFFFF;
+margin: 17px 12px;
+}
+.copyright{
+text-align: center;
+
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+padding: 1rem 0;
+color: #FFFFFF;
+margin-top: 45px;
+}
+/*Investment*/
+
+.payContainer{
+    display: flex;
+    padding: 2rem 2rem;
+    width: 17rem;
+    margin-left: 2rem;
+    background: #323232;
+    border-radius: 12px;
+}
+.payContainer input{
+    background: #323232;
+    border: none;
+    outline: none;
+}
+.payContainer input::placeholder{
+    color: white;
+
+}
+.payContainer p{
+    color: #FFFFFF;
+}
+.payContainer span{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+font-size: 14px;
+}
+.payContainer img{
+    width: 1rem;
+    padding: 0.2rem 0.6rem;
+}
+.payContainer div:nth-child(2){
+    border: 2px solid #5474F9;
+    background: #5474F9;
+    border-radius: 12px;
+}
+#invest_ava{
+    position: relative;
+    top: 0.3rem;
+}
+.connectWallet{
+    margin-top: 4rem;
+    margin-left: 2.5rem;
+    padding: 1rem 7rem;
+    border-radius: 12px;
+    background: #5474F9;
+    color: white;
+    border: none;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.Invest{
+    margin-bottom: -60rem;
+}
+.buyBtn{
+    padding: 1rem 4.5rem;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #1A1A1A;
+    border: none;
+    color: #5474F9;
+    border-bottom: 2px solid #5474F9;
+    
+}
+.sellBtn{
+    padding: 1rem 5.6rem;
+    font-size: 20px;
+    margin-bottom: 2rem;
+    font-weight: 700;
+    background-color: #1A1A1A;
+    color: #FFFFFF;
+    border: none;
+}
