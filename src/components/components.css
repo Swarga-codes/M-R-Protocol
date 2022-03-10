@@ -596,3 +596,6 @@ height: 35px;
 .graph_cont{
     display: flex;
 }
+.payContainer input{
+    font-size: 14px;
+}
