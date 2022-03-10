@@ -453,6 +453,7 @@ font-size: 14px;
     border: none;
     color: #5474F9;
     border-bottom: 2px solid #5474F9;
+    margin-left: 0.5rem;
     
 }
 .sellBtn{
@@ -463,4 +464,135 @@ font-size: 14px;
     background-color: #1A1A1A;
     color: #FFFFFF;
     border: none;
+}
+
+
+
+/* NEW PAGE */
+.section_two{
+    display: flex;
+    
+}
+.current_index{
+    padding: 10rem 7rem;
+}
+.sectiontwo_img{
+    display: flex;
+    margin-left: -4.5rem;
+}
+.current_img img{
+    width: 40px;
+    height: 40px;
+}
+.current_img{
+    padding: 2rem 4.5rem;
+}
+.current_img p{
+font-family: 'Epilogue',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 25px;
+color: #73EB86;
+margin: 24px 0px;
+}
+.current_index h5{
+font-family: 'Epilogue', sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 25px;
+line-height: 52px;
+color: #FFFFFF;
+border-bottom: 1px solid #5474F9;
+}
+
+.section_one{
+    display: flex;
+    padding: 5rem;
+}
+.graph{
+  
+width: 825px;
+height: 615px;
+
+background: #1A1A1A;
+border-radius: 12px;
+}
+.graph_head{
+    display: flex;
+    padding: 3rem 3rem;
+}
+.graph_head img{
+    width: 36px;
+height: 36px;
+}
+.graph_head p{
+    color: #FFFFFF;
+    margin-top: 12px;
+}
+.graph h3{
+font-family: 'Epilogue',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 0px;
+color: #FFFFFF;
+padding-left: 3rem;
+}
+.graph_dollar{
+    display: flex;
+}
+.graph_dollar h2{
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 29px;
+line-height: 115px;
+color: #73EB86;
+padding-left: 3rem;
+}
+.graph_dollar p{
+    font-family: 'Inter',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 122px;
+    color: #73EB86;
+    margin: 0px 32px;
+}
+.graph_img{
+    padding-left: 3rem;
+    margin-top: -3rem;
+}
+.dayBtn{
+    margin-left: auto;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+.monthBtn{
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+}
+.dayBtn,.weekBtn,.monthBtn{
+    padding: 8px;
+    border: none;
+    cursor: pointer;
+
+font-family: 'Inter',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 19px;
+color: #000000;
+width: 67px;
+height: 35px;
+
+}
+#app_invest{
+    position: initial;
+    margin-top: 5.2rem;
+}
+.graph_cont{
+    display: flex;
 }

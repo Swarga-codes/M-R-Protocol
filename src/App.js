@@ -3,29 +3,17 @@
 import React from 'react';
 
 import './App.css';
-import Navbar from './components/Navbar';
-import Footer from './components/Footer';
-import Team from './components/Team';
-import Header from './components/Header';
-import Marketcap from './components/MarketCap';
-import Decentralized from './components/Decentralized';
-import Investment from './components/Investment';
-import Crypto from './components/Crypto';
+import Home from './pages/Home';
+import {BrowserRouter as Router, Route} from 'react-router-dom'
 
+import AppPage from './pages/AppPage';
 
 function App() {
   return (
-  <main>
-  <Navbar/>
-  <Header/>
-  <Marketcap/>
-  <Investment/>
-  <Crypto/>
-  <Decentralized />
-  <Team />
-  <Footer/>
-  
-  </main>
+    <Router>
+  <Route exact path="/" component={Home}/>
+  <Route exact path='/app' component={AppPage}/>
+  </Router>
   );
 }
 

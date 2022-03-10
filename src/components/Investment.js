@@ -2,6 +2,7 @@ import InvestLogo from '../assets/invest.png'
 import Avalanche from '../assets/avalanche.png'
 import Down from '../assets/down.png'
 import logo from '../assets/logo.png'
+
 const Investment = () => {
   return (
     <div className="Invest">
@@ -52,7 +53,7 @@ const Investment = () => {
       <img src={Down} alt="" />
       </div>
      
-      </div>
+           </div>
       <button className='connectWallet'>Connect Wallet</button>
       </div>
     
