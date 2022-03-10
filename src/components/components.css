@@ -38,6 +38,7 @@ margin-right: 3.5rem;
 .navBtns button{
   border-radius: 12px;
   margin-right: 2rem;
+  cursor: pointer;
 }
 .buyMRI{
      background: #5474F9;
