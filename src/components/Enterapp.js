@@ -2,7 +2,7 @@ import Footer from './Footer'
 
 
 import Avalanche from '../assets/avalanche.png';
-import InvestLogo from '../assets/invest.png';
+
 import Down from '../assets/down.png';
 import logo from '../assets/logo.png';
 import '../components/components.css';
@@ -64,6 +64,7 @@ const Enterapp = () => {
             <div>
             <img src={logo} alt=""  id='invest_ava'/>
             <span>MRI</span>
+        
             <img src={Down} alt="" />
             </div>
            

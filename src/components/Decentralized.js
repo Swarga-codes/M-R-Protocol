@@ -5,7 +5,7 @@ const Decentralized = () => {
         <div className="Decentralised_wrapped">
             <img src={Decentralised} alt="" />
         <div className="Decentralised">
-            <h1>Decentralised Index</h1>
+            <h1 style={{marginTop:'10rem'}}>Decentralised Index</h1>
             <p>Every index token is collateralized by a basket of assets curated to that specific pool. No matter the conversion rate of the basket, your index tokens can be redeemed for each of the underlying assets, or if you choose to liquidate normally, the protocol can perform your sales and return the value in Avax to you. </p>
             <button className="readMoreIndex">READ MORE ABOUT INDEX</button>
         </div>

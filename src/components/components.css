@@ -35,12 +35,12 @@ padding: 1rem 2rem;
     margin-left: auto;
 margin-right: 3.5rem;
 }
-.navBtns button{
+.navBtns button, .res_Btns button{
   border-radius: 12px;
   margin-right: 2rem;
   cursor: pointer;
 }
-.buyMRI{
+.buyMRI, .resMRI{
      background: #5474F9;
      border: 2px solid #5474F9;
      color: #FFFFFF;
@@ -50,12 +50,12 @@ font-weight: 700;
 font-family: 'Inter', sans-serif;
 outline: none;
 }
-.buyMRI img{
+.buyMRI img, .resMRI img{
     width: 1rem;
     background: #5474F9;
 }
 
-.enterApp{
+.enterApp, .resApp{
     background: rgba(84, 116, 249, 0.4);
     border: 1px solid #5474F9;
 color: #FFFFFF;
@@ -599,4 +599,192 @@ height: 35px;
 }
 .payContainer input{
     font-size: 14px;
+}
+#bars{
+    display: none;
+}
+@media(max-width:991px){
+    .navBtns, .routes{
+        display: none;
+    }
+    #bars{
+        margin-left: auto;
+        width: 1rem;
+        height: 1rem;
+        display: flex;
+        cursor: pointer;
+    }
+    .res_routes{
+        list-style: none;
+        position: relative;
+        top: 4rem;
+        left: -12rem;
+    }
+    .res_routes li{
+        padding: 1rem 1rem;
+    }
+    .res_Btns{
+        display: flex;
+        position: relative;
+        top: 5rem;
+        left: -11rem;
+    }
+    .logo img{
+        height: 3rem;
+    }
+    .resMRI{
+        padding: 0;
+        width: 9rem;
+    height: 3rem;
+    }
+    .resApp{
+        height: 3rem;
+        width: 7rem;
+        padding: 0;
+    }
+    .crossBtn{
+        margin-left: auto !important;
+        margin-right:12rem !important;
+    }
+    .logo p{
+        width: 7rem;
+    }
+    .Header img{
+        width: 20rem;
+    }
+    .Header h1{
+        position: initial;
+        font-size: 25px;
+        margin-top: 2rem;
+    }
+    .headerBtn{
+margin-top: 4rem;
+display: block;
+    }
+    .Header-content p{
+        padding: 4rem 2rem;
+    }
+    .buy img {
+        width: 1rem;
+    }
+    .Market-logo img{
+        display: none;
+    }
+    .market-content{
+        
+    padding: 2rem 3.65rem;
+    margin: 0;
+    }
+    .invest-content h1{
+        font-size: 36px;
+    }
+    #logo{
+        width: 19rem;
+        height: 23rem;
+    }
+    .Crypto-currency{
+top: -18rem;
+    }
+    .Crypto h1{
+        font-size: 36px;
+        margin-top: -8rem;
+    }
+    .Decentralised p{
+        width: auto;
+    }
+    .Crypto-currency div{
+        padding: 1rem 1rem;
+    }
+    .Crypto-currency div img{
+        height: 62px;
+    }
+    .handle{
+        padding: 0;
+    }
+    .handle h5{
+        font-size: 16px;
+    }
+    footer h1{
+        font-size: 30px;
+    }
+    .readMoreIndex{
+        padding: 0.9rem 0.6rem;
+    }
+    #investLogo{
+            position: initial;
+            margin-left: -2rem;
+    }
+    .Invest{
+        margin-bottom: -14rem;
+    }
+    .invest-content{
+        padding: 9rem 1rem;
+    }
+
+    .invest-content h1{
+        width: auto;
+    }
+    .invest_container{
+        top:-31rem;
+        left: 0;
+
+    }
+    .content p{
+        width: auto;
+    }
+    .team_content{
+        padding: 5rem 1rem;
+    }
+    .Decentralised_wrapped{
+        padding: 0 1rem;
+    }
+    .Decentralised_wrapped img{
+        
+        display: none;
+    }
+  .graph_cont{
+      display: block;
+  }
+  .graph_img{
+      width: 23rem;
+      padding-left: 1rem;
+  }
+  .graph_head img{
+      margin-left: -2rem;
+  }
+  .graph{
+    width: 415px;
+    height: 425px;
+  }
+  .graph h3{
+      font-size: 16px;
+      padding-left: 1.5rem;
+  }
+  .graph_dollar h2{
+      font-size: 23px;
+      padding-left: 1.5rem;
+  }
+  .dayBtn{
+      margin-left: 9rem   ;
+  }
+  .dayBtn, .weekBtn, .monthBtn{
+      height: 31px;
+      width: 3rem;
+      font-size: 11px;
+  }
+  .section_one{
+      padding: 6rem 0;
+  }
+  .section_two{
+      display: block;
+  }
+  .current_img{
+    padding: 2rem 3.5rem;
+  }
+  .current_index{
+    padding: 4rem 1.5rem;
+  }
+  main{
+      overflow: hidden;
+  }
 }
