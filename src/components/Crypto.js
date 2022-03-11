@@ -19,6 +19,7 @@ const Crypto = () => {
         <img src={Avalanche} alt="" />
         </div>
         <div>
+            
         <img src={Solana} alt="" />
         </div>
         <div>
