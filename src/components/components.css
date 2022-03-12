@@ -613,6 +613,7 @@ height: 35px;
         height: 1rem;
         display: flex;
         cursor: pointer;
+        margin-top: 1rem;
     }
     .res_routes{
         list-style: none;
@@ -644,7 +645,7 @@ height: 35px;
     }
     .crossBtn{
         margin-left: auto !important;
-        margin-right:12rem !important;
+        margin-right:11.5rem !important;
     }
     .logo p{
         width: 7rem;
