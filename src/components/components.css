@@ -614,7 +614,8 @@ height: 35px;
         height: 1rem;
         display: flex;
         cursor: pointer;
-        margin-top: 1rem;
+      
+        padding: 1rem 0.2rem;
     }
     .res_routes{
         list-style: none;
@@ -800,5 +801,8 @@ top: -18rem;
   .navbar2_cross{
     position: relative;
     left: 7rem;
+  }
+  .AppPage{
+      overflow: hidden;
   }
 }

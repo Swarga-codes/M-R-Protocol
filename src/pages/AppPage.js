@@ -3,9 +3,10 @@ import Enterapp from '../components/Enterapp'
 const AppPage = () => {
     return (  
         <>
+        <div className="AppPage">
         <Navbar/>
         <Enterapp/>
-        
+        </div>
         </>
     );
 }
