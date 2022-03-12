@@ -57,7 +57,7 @@ const Navbar = () => {
         :
         <>
         <div className="cross">
-        <div>
+        <div className='navbar2_cross'>
         <img src={Cross} alt="" id='bars' className = 'crossBtn' onClick={() => setToggle(!toggle)}/>
         </div>
         <div className="res_routes">

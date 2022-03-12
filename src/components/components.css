@@ -797,4 +797,8 @@ top: -18rem;
   .readMore{
       margin: 0 auto;
   }
+  .navbar2_cross{
+    position: relative;
+    left: 7rem;
+  }
 }
