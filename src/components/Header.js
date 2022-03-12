@@ -9,9 +9,11 @@ const Header = () => {
         One <span> Index for</span> Every <span> Asset</span>{" "}
       </h1>
       <div className="headerBtn">
+        
         <button className="buy">
           BUY <img src={logo} alt="" /> MRI
         </button>
+        
         <button className="readMore">READ MORE ABOUT INDEX</button>
       </div>
       <div className="Header-content">

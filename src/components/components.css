@@ -788,4 +788,12 @@ top: -18rem;
   main{
       overflow: hidden;
   }
+  .buy{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 2rem;
+  }
+  .readMore{
+      margin: 0 auto;
+  }
 }
