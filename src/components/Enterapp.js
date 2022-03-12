@@ -1,5 +1,5 @@
 import Footer from './Footer'
-
+import { useState } from "react";
 
 import Avalanche from '../assets/avalanche.png';
 
@@ -10,7 +10,32 @@ import Decentralised from '../assets/decentralised logo.png';
 import SecondPageArrow from '../assets/secondpage arrow.png';
 import Graph from '../assets/graph.png';
 import CurrentIndex from './currentIndex';
+
+async function getAccount() {
+    const accounts = await window.ethereum.request({
+      method: "eth_requestAccounts",
+    });
+    const account = accounts[0];
+  
+    return account;
+  }
+
 const Enterapp = () => {
+    const [accountAddress, setAccountAddress] = useState("");
+
+    const connectButtonOnClick = () => {
+      console.log(window);
+      if (
+        typeof window !== "undefined" &&
+        typeof window.ethereum !== "undefined"
+      ) {
+        getAccount().then((response) => {
+          setAccountAddress(response);
+        });
+      } else {
+        console.log("error");
+      }
+    };
     return ( 
         <main>
         <div className="graph_cont">
@@ -69,7 +94,7 @@ const Enterapp = () => {
             </div>
            
                  </div>
-            <button className='connectWallet'>Connect Wallet</button>
+            <button className='connectWallet' onClick={connectButtonOnClick}> {!!accountAddress ? accountAddress : "Connect Wallet"}</button>
             </div>
             </div>
         <CurrentIndex/>

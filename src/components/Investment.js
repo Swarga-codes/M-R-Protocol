@@ -2,8 +2,32 @@ import InvestLogo from '../assets/invest.png'
 import Avalanche from '../assets/avalanche.png'
 import Down from '../assets/down.png'
 import logo from '../assets/logo.png'
+import { useState } from "react";
 
+async function getAccount() {
+  const accounts = await window.ethereum.request({
+    method: "eth_requestAccounts",
+  });
+  const account = accounts[0];
+
+  return account;
+}
 const Investment = () => {
+  const [accountAddress, setAccountAddress] = useState("");
+
+  const connectButtonOnClick = () => {
+    console.log(window);
+    if (
+      typeof window !== "undefined" &&
+      typeof window.ethereum !== "undefined"
+    ) {
+      getAccount().then((response) => {
+        setAccountAddress(response);
+      });
+    } else {
+      console.log("error");
+    }
+  };
   return (
     <div className="Invest">
       <div className="invest-content">
@@ -54,7 +78,7 @@ const Investment = () => {
       </div>
      
            </div>
-      <button className='connectWallet'>Connect Wallet</button>
+           <button className='connectWallet'onClick={connectButtonOnClick}> {!!accountAddress ? accountAddress : "Connect Wallet"}</button>
       </div>
     
       </div>

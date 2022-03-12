@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar";
+import Navbar from "../components/Navbar2";
 import Enterapp from '../components/Enterapp'
 const AppPage = () => {
     return (  
