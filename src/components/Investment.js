@@ -78,7 +78,7 @@ const Investment = () => {
       </div>
      
            </div>
-           <button className='connectWallet'onClick={connectButtonOnClick}> {!!accountAddress ? accountAddress : "Connect Wallet"}</button>
+           <button className='connectWallet'onClick={connectButtonOnClick}> {!!accountAddress ? "Connected" : "Connect Wallet"}</button>
       </div>
     
       </div>

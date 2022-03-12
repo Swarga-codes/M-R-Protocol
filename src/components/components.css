@@ -442,6 +442,7 @@ font-size: 14px;
     border: none;
     font-weight: 700;
     font-family: 'Inter', sans-serif;
+    cursor: pointer;
 }
 .Invest{
     margin-bottom: -60rem;

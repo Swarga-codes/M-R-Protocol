@@ -45,7 +45,7 @@ const Navbar = () => {
         <div className="navBtns">
         {/* <button className='buyMRI'>BUY <img src={logo} alt="" /> MRI</button> */}
     {/* <Link to="/app"> */}
-        <button className='enterApp' onClick={connectButtonOnClick}> {!!accountAddress ? accountAddress : "Connect Wallet"}</button>
+        <button className='enterApp' onClick={connectButtonOnClick}> {!!accountAddress ? "Connected" : "Connect Wallet"}</button>
     {/* </Link>  */}
         
         </div>
