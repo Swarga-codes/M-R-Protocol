@@ -1,9 +1,37 @@
+import { useEffect } from 'react';
+import { useState } from 'react'
 import Decentralised from '../assets/decentralised logo.png'
 
 const Decentralized = () => {
+   
+   
+    window.addEventListener('scroll', () => {
+        const scrolled = window.scrollY;
+        const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+        console.log(scrollable);
+        // if(Math.ceil(scrolled)>3242){
+        // alert('target reached')
+        // }
+        let decen = document.querySelector('#DecenImg');
+        if(Math.ceil(scrolled) > 3220 && Math.ceil(scrolled) < 3950){
+            decen.style.position = 'fixed';
+            decen.style.top = '12rem';
+            decen.style.left = '66rem';
+        }
+        else{
+            decen.style.position = 'relative';
+            decen.style.top = '22rem';
+            decen.style.left = '60rem';
+        }
+    })
+    
     return (
+        
         <div className="Decentralised_wrapped">
-            <img src={Decentralised} alt="" />
+        
+            <img src={Decentralised} alt="" id='DecenImg'/>
+            
+         
         <div className="Decentralised">
             <h1 style={{marginTop:'10rem'}}>Decentralised Index</h1>
             <p>Every index token is collateralized by a basket of assets curated to that specific pool. No matter the conversion rate of the basket, your index tokens can be redeemed for each of the underlying assets, or if you choose to liquidate normally, the protocol can perform your sales and return the value in Avax to you. </p>
@@ -26,3 +54,4 @@ const Decentralized = () => {
 }
  
 export default Decentralized;
+
